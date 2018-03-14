@@ -17,7 +17,7 @@
 
 ### 基本玩法
 
-![迷恋猫](i/cryptokitties.png)
+![迷恋猫](i/CryptoKitties.png)
 （来源: [Crypto Kitties](https://www.cryptokitties.co/marketplace)）
 
 在平台中你可以使用ETH购买、繁衍、拍卖迷恋猫。
