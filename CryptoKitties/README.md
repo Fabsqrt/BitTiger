@@ -11,7 +11,7 @@
 
 ## 简介
 
-从区块链社区起步，全世界对CryptoKitties展现出了浓厚的兴趣。据第三方网站CryptoKitties Sales数据显示，截至2018年3月7日已经售出24万多只小猫，交易额超2280万美元，成交均价大约在71美元，小猫的最高售价为253ETH ，目前折合美元是19万。具体统计如下：
+从区块链社区起步，全世界对CryptoKitties展现出了浓厚的兴趣。据第三方网站CryptoKitties Sales数据显示，截至2018年3月7日已经售出24万多只小猫，交易额超2280万美元，成交均价大约在71美元，小猫的最高售价为253ETH，目前折合美元是19万。具体统计如下：
 
 - 总交易数: 318970
 - 总交易的不同的猫的数量: 249208
@@ -42,7 +42,6 @@
 
 ![创始人的猫](i/FounderKitties.png)
 （来源：[CryptoKitties have the digital currency world purring, The San Francisco Chronicle](http://www.sfchronicle.com/news/article/CryptoKitties-have-the-digital-currency-world-12462575.php)）
-
 
 - 拍卖前100个0代猫的收入。如上图所示，创始猫的拍卖价格是11万美元。
 - 在2018年11月之前，每15分钟拍卖一只新的0代猫，一共拍卖50,000只。每一只猫的起始拍卖价格是之前五只0代猫平均拍卖价格的1.5倍。
@@ -2104,7 +2103,6 @@ contract KittyCore is KittyMinting {
 }
 
 ```
-
 
 ## 参考资料
 - [CryptoKitties资料合集](https://github.com/openblockchains/awesome-cryptokitties)
