@@ -6,11 +6,11 @@
 
 ## 简介
 
-![](i/cage.png)](https://www.youtube.com/watch?v=BU9YAHigNx8"Nick Cage DeepFakes Movie Compilation")
+[![](i/cage.png)](https://www.youtube.com/watch?v=BU9YAHigNx8 "Nick Cage DeepFakes Movie Compilation")
 
 如果你是第一次听说DeepFake，一定要点击上面的视频，亲自感受一下尼古拉斯的脸是如何占据全世界的每一个影片。
 
-![](i/cage2.png)](https://www.youtube.com/watch?v=RdH7JoZZC2M"Deepfakes real time side by side comparison Amy Adams & Nick Cage")
+[![](i/cage2.png)](https://www.youtube.com/watch?v=RdH7JoZZC2M "Deepfakes real time side by side comparison Amy Adams & Nick Cage")
 
 让我们再来看一个歌唱版，仔细感受人物的表情和声音的同步，以及和原始视频的相似与差异。
 
