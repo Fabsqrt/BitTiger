@@ -6,11 +6,11 @@
 
 ## 简介
 
-[![](i/cage.png)](https://www.youtube.com/watch?v=BU9YAHigNx8"Nick Cage DeepFakes Movie Compilation")
+![](i/cage.png)](https://www.youtube.com/watch?v=BU9YAHigNx8"Nick Cage DeepFakes Movie Compilation")
 
 如果你是第一次听说DeepFake，一定要点击上面的视频，亲自感受一下尼古拉斯的脸是如何占据全世界的每一个影片。
 
-[![](i/cage2.png)](https://www.youtube.com/watch?v=RdH7JoZZC2M"Deepfakes real time side by side comparison Amy Adams & Nick Cage")
+![](i/cage2.png)](https://www.youtube.com/watch?v=RdH7JoZZC2M"Deepfakes real time side by side comparison Amy Adams & Nick Cage")
 
 让我们再来看一个歌唱版，仔细感受人物的表情和声音的同步，以及和原始视频的相似与差异。
 
@@ -23,6 +23,8 @@
 ### 预处理
 
 在这个阶段，我们需要收集大量的视频或者图片，并且从中扣出目标的人脸。一个可用的库是Dlib，可以定位人脸，给出人脸的36个关键点坐标，从而计算人脸的角度，抠出摆正后的人脸。但是Dlib要求识别的必须是全脸，因此会减少我们的样本集以及一些特定的样本场景。同时，因为人脸是64*64像素的尺寸，因此也要处理清晰度的问题。
+
+#### 定位人脸
 
 ### 建模
 
@@ -40,3 +42,4 @@
 - [Deepfakes的Github](https://github.com/deepfakes/faceswap)
 - [Dlib C++ Library](http://dlib.net/)
 - [FakeApp官方网站](https://www.fakeapp.org/)
+- [DeepFakes FakeApp Tutorial](https://www.deepfakes.club/tutorial/)
