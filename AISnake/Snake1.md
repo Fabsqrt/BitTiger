@@ -4,7 +4,7 @@
 
 ### 游戏玩法
 
-![贪吃蛇截图](i/snakeworld.png)
+![贪吃蛇截图](i/Neural-network-snake_snakeworld.png)
 （来源: [Snakes, Neural Networks and Genetic Algorithms](https://www.youtube.com/watch?v=BBLJFYr7zB8)）
 
 游戏界面如上图。其中红色是食物，其它颜色都是正在存活的蛇。我们的目的是培育出最聪明的蛇。
@@ -13,14 +13,14 @@
 
 为了能够定义这样一只蛇，我们需要定义从环境中收集到的信息。我们可以把整个环境作为一个Bitmap输出。但是在这里，我们使用了蛇的视觉的方法。
 
-![贪吃蛇视觉](i/snakevision.png)
+![贪吃蛇视觉](i/Neural-network-snake_snakevision.png)
 （来源: [Snakes, Neural Networks and Genetic Algorithms](https://www.youtube.com/watch?v=BBLJFYr7zB8)）
 
 如上图所示，我们让蛇在120度的范围内去观察，在16个扇区内看自己到墙、自己、食物的距离，于是得到了48个变量作为输入。
 
 ### 神经网络
 
-![神经网络](i/neuralnetwork.png)
+![神经网络](i/Neural-network-snake_neuralnetwork.png)
 （来源: [Snakes, Neural Networks and Genetic Algorithms](https://www.youtube.com/watch?v=BBLJFYr7zB8)）
 
 将48个变量作为输入，我们可以进一步构建16和16的两层神经网络，最后输出是两个结果。并且在其中使用了非线性的Logistic的激励函数。这两个结果的差表示蛇的偏移角度。
@@ -35,28 +35,28 @@
 
 一条蛇的适应度函数有它的长度和健康度共同构成，健康度就是这条蛇有多么饥饿。一条一只抢不到食物的蛇的健康度会逐渐下降。
 
-![选择](i/fitness.png)
+![选择](i/Neural-network-snake_fitness.png)
 （来源: [Snakes, Neural Networks and Genetic Algorithms](https://www.youtube.com/watch?v=BBLJFYr7zB8)）
 
 当我们要创建一只新的蛇的时候，我们首先以适应度为权重，选择出两条蛇，然后基于他们的DNA进行后续的操作。
 
 #### 交叉
 
-![交叉](i/cross.png)
+![交叉](i/Neural-network-snake_cross.png)
 （来源: [Snakes, Neural Networks and Genetic Algorithms](https://www.youtube.com/watch?v=BBLJFYr7zB8)）
 
 如上图所示，我们会首先对DNA进行随机切片，然后使用相同的概率选择任何一个父母的DNA切片，从而构建成新的DNA。这里有意思的是，切片可能在一个Byte内发生，所以能够部分引发更大的变异。
 
 #### 突变
 
-![交叉](i/mutation.png)
+![交叉](i/Neural-network-snake_mutation.png)
 （来源: [Snakes, Neural Networks and Genetic Algorithms](https://www.youtube.com/watch?v=BBLJFYr7zB8)）
 
 最后一步是在把父母基因拷贝到后代时的突变。这里的核心是如何决定突变的概率？越是初期，蛇的适应度越低，越应该更多的突变，以寻求更大的探索空间。因此突变的概率与当前蛇的最大适应度成反比。
 
 ### 系统架构
 
-![交叉](i/structure.png)
+![架构](i/Neural-network-snake_architecture.png)
 
 整个项目的架构如上图。位于正中间的是我们的蛇，它从右上角获得了构建自己每个球形节点的能力，从右下角获得了神经网络判断能力，从下方获得了DNA的能力。
 
