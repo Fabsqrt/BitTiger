@@ -2,6 +2,7 @@
 
 - 作者：冯沁原
 - 网站：[www.BitTiger.io](https://www.BitTiger.io)
+- 原文：[github.com/Fabsqrt/BitTigerLab](https://github.com/Fabsqrt/BitTigerLab)
 - 邮箱：Qinyuan@BitTiger.io
 
 ## 观看视频
