@@ -36,10 +36,11 @@
 
 当我们图片融合的时候，会有一个难题，如何又保证效果又放置图片抖动。
 
-
 ## 参考资料
+
 - [深度解密换脸应用Deepfake](https://zhuanlan.zhihu.com/p/34042498)
 - [Deepfakes的Github](https://github.com/deepfakes/faceswap)
 - [Dlib C++ Library](http://dlib.net/)
 - [FakeApp官方网站](https://www.fakeapp.org/)
 - [DeepFakes FakeApp Tutorial](https://www.deepfakes.club/tutorial/)
+- [DeepFakes解读](https://www.youtube.com/watch?v=7XchCsYtYMQ)
