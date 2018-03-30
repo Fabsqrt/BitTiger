@@ -4,6 +4,18 @@
 - 网站：[www.BitTiger.io](https://www.BitTiger.io)
 - 邮箱：Qinyuan@BitTiger.io
 
+## 报名直播
+
+直播时间：
+
+- 美西时间：4月13日，19:00 PM
+- 美东时间：4月13日，22:00 PM
+- 中国时间：4月14日，10:00 AM
+
+报名地址：
+
+[https://www.bittiger.io/events/6BMNCF2wyY3kX2aNN](https://www.bittiger.io/events/6BMNCF2wyY3kX2aNN)
+
 ## 简介
 
 [![](i/cage.png)](https://www.youtube.com/watch?v=BU9YAHigNx8 "Nick Cage DeepFakes Movie Compilation")
