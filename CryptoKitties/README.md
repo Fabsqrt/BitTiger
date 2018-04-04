@@ -5,9 +5,9 @@
 - 原文：[github.com/Fabsqrt/BitTigerLab](https://github.com/Fabsqrt/BitTigerLab)
 - 邮箱：Qinyuan@BitTiger.io
 
-## 观看视频
+## 观看课程视频
 
-[![](http://img.youtube.com/vi/gdEx5nxkiRk/0.jpg)](http://www.youtube.com/watch?v=gdEx5nxkiRk "沁原教学：用区块链做一个火爆全球的以太猫（CryptoKitties）")
+[![](i/youtube.png)](http://www.youtube.com/watch?v=gdEx5nxkiRk "沁原教学：用区块链做一个火爆全球的以太猫（CryptoKitties）")
 
 
 ## 简介
