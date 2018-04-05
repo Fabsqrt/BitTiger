@@ -7,7 +7,7 @@
 
 ## 观看课程视频
 
-[![](i/youtube.png)](http://www.youtube.com/watch?v=gdEx5nxkiRk "沁原教学：用区块链做一个火爆全球的以太猫（CryptoKitties）")
+[![](i/youtube.jpg)](http://www.youtube.com/watch?v=gdEx5nxkiRk "沁原教学：用区块链做一个火爆全球的以太猫（CryptoKitties）")
 
 
 ## 简介

@@ -8,7 +8,7 @@
 
 ## 观看课程视频
 
-[![](i/youtube.png)](https://www.youtube.com/watch?v=_V7MntH_Tu8 "沁原教学：带你一小时搭建自己的区块链（Blockchain、Bitcoin、Ethereum）")
+[![](i/youtube.jpg)](https://www.youtube.com/watch?v=_V7MntH_Tu8 "沁原教学：带你一小时搭建自己的区块链（Blockchain、Bitcoin、Ethereum）")
 
 ## Blockchain
 
