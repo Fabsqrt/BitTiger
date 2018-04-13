@@ -47,6 +47,21 @@
 
 ### 云平台部署
 
+## 总结
+
+我们用到了如下的技术栈、框架、平台：
+
+- Dlib：基于C++的机器学习算法库
+- OpenCV：计算机视觉算法库
+- Keras：在底层机器学习框架之上的高级API架构
+- TensorFlow：Google开源的机器学习算法框架
+- CUDA：Nvidia提供的针对GPU加速的开发环境
+- Google Cloud Platform：Google提供的云计算服务平台
+- Virtualenv：创建独立的Python环境
+- FFmpeg：多媒体音视频处理开源库
+
+
+
 ## 参考资料
 
 - [深度解密换脸应用Deepfake](https://zhuanlan.zhihu.com/p/34042498)
