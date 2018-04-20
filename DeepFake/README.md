@@ -1106,7 +1106,9 @@ ffmpeg  -f image2 -i imagename%04d.jpg -vcodec libx264 -crf 15 -pix_fmt yuv420p 
 
 ### 云平台部署
 
-我们可以在Google Cloud中部署云平台。
+我们可以在Google Cloud中部署云平台。具体请看视频展示。
+
+
 
 ## 社会影响
 
