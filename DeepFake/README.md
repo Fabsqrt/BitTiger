@@ -15,7 +15,9 @@
 
 什么是DeepFake？它能够在视频中把一个人的脸变成另一个人的脸。
 
-![giphy](i/giphy.gif)（来源: [Family fun with deepfakes. Or how I got my wife onto the Tonight Show](http://svencharleer.com/blog/2018/02/02/family-fun-with-deepfakes-or-how-i-got-my-wife-onto-the-tonight-show/)）
+![giphy](i/giphy.gif)
+
+(来源: [Family fun with deepfakes. Or how I got my wife onto the Tonight Show](http://svencharleer.com/blog/2018/02/02/family-fun-with-deepfakes-or-how-i-got-my-wife-onto-the-tonight-show/))
 
 你能看出来这是一个合成的视频吗？
 
@@ -31,15 +33,11 @@
 
 我们要如何实现视频里的变脸呢？
 
-因为视频是连续的图片，那么我们只需要把每一张图片中的脸切换了，就能得到变脸的新视频了。
-
-那么如何切换一个视频中的图片呢？这需要我们首先找到视频中的脸，然后把脸进行切换。
-
-我们会发现，变脸这件事可以拆解成如下的流程。
+因为视频是连续的图片，那么我们只需要把每一张图片中的脸切换了，就能得到变脸的新视频了。那么如何切换一个视频中的图片呢？这需要我们首先找到视频中的脸，然后把脸进行切换。我们会发现，变脸这个难题可以拆解成如下的流程。
 
 ![Flow](i/flow.png)
 
-于是，在我们后续的讲解中，会按照这五个步骤进行介绍。
+于是，在我们会在后续按照这五个步骤进行介绍。
 
 ### 视频转图像
 
@@ -61,7 +59,7 @@ FFmpeg提供了处理音频、视频、字幕和相关源数据的工具库。
 - ffplay是一个极简的播放器
 - ffprobe是多媒体内容的分析工具
 
-于是，我们的视频转图片的功能，可以通过一下命令来实现，
+于是，我们的视频转图片的功能，可以通过以下命令来实现，
 
 ```
 
@@ -69,18 +67,19 @@ ffmpeg -i clipname -vf fps=framerate -qscale:v 2 "imagename%04d.jpg"
 
 ```
 
-具体来说，上面的命令可以把一个视频，按照固定的频率生成图片。
+具体来说，上面的指令可以把一个视频，按照固定的频率生成图片。
 
 
 ### 人脸定位
 
 #### 基本算法
 
-人脸定位是一个相对成熟的领域，主要是应用dlib库的相关功能。我们虽然可以定制一个人脸识别的算法，但是我们也可以使用已有的通用的人脸识别的函数库。
+人脸定位是一个相对成熟的领域，主要应用dlib库的相关功能。我们虽然可以定制一个人脸识别的算法，但是我们也可以使用已有的通用的人脸识别的函数库。
 
 有两类算法，一类是HOG的脸部标记算法。
 
 ![Facial](i/facial_landmarks1.jpg)
+
 （来源: [Facial landmarks with dlib, OpenCV, and Python](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)）
 
 该算法的效果如上图。它将人脸分成了如下的区域：
@@ -93,12 +92,13 @@ ffmpeg -i clipname -vf fps=framerate -qscale:v 2 "imagename%04d.jpg"
 基于这些标记，我们不仅能够进行后续的换脸，也能检测脸的具体形态，眨眼状态等。例如，我们可以把这些点连在一起，得到更多的特征。
 
 ![Facial](i/landmarked_face2.png)
+
 （来源: [Real-Time Face Pose Estimation
 ](http://blog.dlib.net/2014/08/real-time-face-pose-estimation.html)）
 
-寻找脸部标记具体来说是一个预测问题，输入是一张图片和兴趣区域，输出是兴趣区域的关键点。
+寻找脸部标记是一个预测问题，输入是一张图片和兴趣区域，输出是兴趣区域的关键点。
 
-HOG是如何找到人脸的呢？其实这可以是一个通用的检测算法：
+HOG是如何找到人脸的呢？这是一个通用的检测算法：
 - 从数据集中找到正样本，并且计算HOG描述
 - 从数据集中找到负样本，并且计算HOG描述
 - 基于HOG的描述使用分类算法
@@ -108,45 +108,49 @@ HOG是如何找到人脸的呢？其实这可以是一个通用的检测算法�
 这里有个问题，如何计算HOG的描述呢？我们可以计算每个点的亮度，然后把每个点表示为指向更黑的方向的向量。如下图所示：
 
 ![face1](i/face1.gif)
+
 （来源: [Machine Learning is Fun! Part 4: Modern Face Recognition with Deep Learning
 ](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)）
 
 ![face2](i/face2.gif)
+
 （来源: [Machine Learning is Fun! Part 4: Modern Face Recognition with Deep Learning
 ](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)）
 
-我们为什么要这么做呢？因为每个点的绝对值会受到环境的影响，但是相对值则比较稳定。因此，我们通过变化梯度的方式，能够准备更优秀的数据。当然，我们也可以进一步的把相邻的点聚合在一起，从而产生更有代表性的数据。
+我们为什么要这么做呢？因为每个点的绝对值会受到环境的影响，但是相对值则比较稳定。因此，我们通过梯度变化的表示，能够准备出高质量的数据。当然，我们也可以进一步的把相邻的点聚合在一起，从而产生更有代表性的数据。
 
 现在可以进行检测了
 - 首先在新的图片上基于不同的起点和尺度寻找可行的区间
-- 基于非极大抑制的方法来减少冗余和重复的，下图就是一个有冗余和去除冗余的情况，这个方法说白了就是找一个最大概率的矩阵去覆盖掉和他过于重合的矩阵，并且不断重复这个过程
-
+- 基于非极大抑制的方法来减少冗余和重复的，下图就是一个有冗余和去除冗余的情况，这个方法说白了就是找一个最大概率的矩阵去覆盖掉和它过于重合的矩阵，并且不断重复这个过程
 
 ![Facial](i/hog_object_detection_nms.jpg)
+
 （来源: [Histogram of Oriented Gradients and Object Detection](https://www.pyimagesearch.com/2014/11/10/histogram-oriented-gradients-object-detection/)）
 
-有了轮廓之后，我们可以找到脸部标记。而寻找脸部标记的算法是基于《One Millisecond Face Alignment with an Ensemble of Regression Trees》的论文。简单来说，它利用了已经标记好的训练集来训练一个回归树的组合，从而用来预测。
+有了轮廓之后，我们可以找到脸部标记。寻找脸部标记的算法是基于《One Millisecond Face Alignment with an Ensemble of Regression Trees》的论文。简单来说，它利用了已经标记好的训练集来训练一个回归树的组合，从而用来预测。
 
 ![Facedot](i/facedot.png)
+
 （来源: [One Millisecond Face Alignment with an Ensemble of Regression Trees](https://pdfs.semanticscholar.org/d78b/6a5b0dcaa81b1faea5fb0000045a62513567.pdf)）
 
 在这个基础上，就能够标记出这68个点。
 
 ![Facedot](i/68.jpg)
+
 （来源: [Facial landmarks with dlib, OpenCV, and Python
 ](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)）
 
 基于人脸的68个标记的坐标，可以计算人脸的角度，从而抠出摆正后的人脸。但是dlib要求识别的必须是全脸，因此会减少我们的样本集以及一些特定的样本场景。同时，因为人脸是64*64像素的尺寸，因此也要处理清晰度的问题。
 
-另一种方法是用CNN训练一个识别脸部的模型。
+另一种方法是用CNN训练一个识别脸部的模型。CNN能够检测更多的角度，但是需要更多的资源，并且可能在大文件上失效。
 
 #### 数据准备
 
-我们的目标是把原始人脸转换为目标人脸，因此我们需要收集原始人脸的图片和目标人脸的图片。如果你选择的是一个名人，那么可以直接用Google image得到你想要的图片。虽然视频中的图片也能用，但是因为多样性不够，因此还是多多收集一下。当然，我用的是我和我老婆的图片，因此直接从我们的Photo中导出即可。当人脸数据生成后，最好仔细检查一下，避免不应该的脸或者其他出现在你的训练集中。
-
+我们的目标是把原始人脸转换为目标人脸，因此我们需要收集原始人脸的图片和目标人脸的图片。如果你选择的是一个名人，那么可以直接用Google image得到你想要的图片。虽然视频中的图片也能用，但是也可以收集一些多样的数据。当然，我用的是我和我老婆的图片，因此直接从我们的Photo中导出即可。当人脸数据生成后，最好仔细检查一下，避免不应该的脸或者其它的东东出现在你的训练集中。
 
 #### extract.py
 
+Deepfake用于定位人脸的算法如下：
 
 ```Python
 
@@ -182,7 +186,7 @@ class ExtractTrainingData(DirectoryProcessor): # 从训练集提取头像
                                "type": str,
                                "choices": ("hog", "cnn", "all"), #选择hog或者cnn
                                "default": "hog",
-                               "help": "Detector to use. 'cnn' detects much more angles but will be much more resource intensive and may fail on large files."}) # cnn的能够检测更多的角度，但是
+                               "help": "Detector to use. 'cnn' detects much more angles but will be much more resource intensive and may fail on large files."}) # cnn的能够检测更多的角度，但是需要更多的资源，并且可能在大文件上失效
         argument_list.append({ "opts": ('-l', '--ref_threshold'),
                                "type": float,
                                "dest": "ref_threshold",
@@ -336,6 +340,7 @@ class ExtractTrainingData(DirectoryProcessor): # 从训练集提取头像
 我们使用的模型是Autoencoder。有趣的是，这个模型所做的是基于原始的图片再次生成原始的图片。Autoencoder的编码器把图片进行压缩，而解码器把图片进行还原，一个示例如下图：
 
 ![Autoencoder](i/autoencoder.jpg)
+
 （来源: [Building Autoencoders in Keras
 ](https://blog.keras.io/building-autoencoders-in-keras.html/)）
 
@@ -365,10 +370,11 @@ Loss_B = L1Loss(B'-B)
 
 因为在建模中使用的是原图A的扭曲来还原A，应用中是用B来还原A，所以扭曲的方式会极大的影响到最终的结果。因此，如何选择更好的扭曲方式，也是一个重要的问题。
 
-当我们图片融合的时候，会有一个难题，如何又保证效果又防止图片抖动。
+当我们图片融合的时候，会有一个难题，如何又保证效果又防止图片抖动。于是我们还要引入相关的算法处理这些情况。于是我们可以知道，一个看似直接的人脸转换算法在实际操作中需要考虑各种各样的特殊情况，这才是真真的接地气。
 
 #### train.py
 
+以下是进行训练的算法逻辑：
 
 ```python
 
@@ -557,7 +563,7 @@ class TrainingProcessor(object): # 训练器
             if self.arguments.allow_growth:
                 self.set_tf_allow_growth()
 
-            print('Loading data, this may take a while...')
+            print('Loading data, this may take a while...') # 加载数据
             # this is so that you can enter case insensitive values for trainer
             trainer = self.arguments.trainer
             trainer = "LowMem" if trainer.lower() == "lowmem" else trainer
@@ -630,6 +636,8 @@ class TrainingProcessor(object): # 训练器
 
 #### Trainer.py
 
+以下实现了一次具体的训练：
+
 ```python
 
 import time
@@ -690,11 +698,11 @@ class Trainer():
 
 
 
-``
-
+```
 
 #### AutoEncoder.py
 
+以下是我们使用的AutoEncoder的算法逻辑：
 
 ```Python
 
@@ -745,6 +753,8 @@ class AutoEncoder:
 ```
 
 #### Model.py
+
+以下是我们的具体模型：
 
 ```Python
 
@@ -825,11 +835,11 @@ class Model(AutoEncoder):
 
 整个网络的结构如下：
 
-
 ![nn](i/nn.jpg)
+
 （来源: [刷爆朋友圈的视频人物换脸是怎样炼成的？](https://zhuanlan.zhihu.com/p/33424270)）
 
-当然我们也可以用GAN进行进一步的优化。
+我们可以看出来，经历了四个卷积层、展开层、全连接层，我们开始upscale整个模型。在我们upscale一半的时候，我们把encoder和decoder进行了切割，从而保证了共性和个性的分离。
 
 #### convert.py
 
@@ -973,7 +983,7 @@ class ConvertImage(DirectoryProcessor):
                                "help": "Number of GPUs to use for conversion"})
         return argument_list
 
-    def process(self):
+    def process(self): # 进行模型的转换和拼接
         # Original & LowMem models go with Adjust or Masked converter
         # Note: GAN prediction outputs a mask + an image, while other predicts only an image
         model_name = self.arguments.trainer
@@ -1008,7 +1018,7 @@ class ConvertImage(DirectoryProcessor):
             smooth_mask=self.arguments.smooth_mask,
             avg_color_adjust=self.arguments.avg_color_adjust
         )
-Ç
+
         batch = BackgroundGenerator(self.prepare_images(), 1)
 
         # frame ranges stuff...
@@ -1092,9 +1102,22 @@ class ConvertImage(DirectoryProcessor):
 
 ```
 
+当然我们也可以用GAN算法进行优化，那么让我们看一下使用GAN的模型。
+
+![nn](i/gan.jpeg)
+
+（来源: [shaoanlu/faceswap-GAN](https://github.com/shaoanlu/faceswap-GAN)）
+
+如上图所示，我们首先扣取A的人脸，然后进行变形，之后经历编码和解码生成了重建的脸和Mask。以下是我们的学习目标。
+
+![nn](i/gan2.jpg)
+
+（来源: [shaoanlu/faceswap-GAN](https://github.com/shaoanlu/faceswap-GAN)）
+
+
 ### 从图片到视频
 
-基于我们FFmpeg的讲解，可以使用一下命令讲一批图片合称为一个视频：
+基于我们FFmpeg的讲解，可以使用以下命令将一批图片合并为一个视频：
 
 ```
 
@@ -1106,8 +1129,54 @@ ffmpeg  -f image2 -i imagename%04d.jpg -vcodec libx264 -crf 15 -pix_fmt yuv420p 
 
 ### 云平台部署
 
-我们可以在Google Cloud中部署云平台。具体请看视频展示。
+我们可以在Google Cloud中部署云平台。具体请看视频展示，我在这里展示几个关键步骤：
 
+![cloud1](i/cloud-1.png)
+
+(来源: [How to Create DeepFakes with Google Cloud GPU Services](https://www.deepfakes.club/google-cloud-fakeapp-tutorial/))
+
+![cloud2](i/cloud-2.png)
+
+(来源: [How to Create DeepFakes with Google Cloud GPU Services](https://www.deepfakes.club/google-cloud-fakeapp-tutorial/))
+
+
+![cloud3](i/cloud-3.png)
+
+(来源: [How to Create DeepFakes with Google Cloud GPU Services](https://www.deepfakes.club/google-cloud-fakeapp-tutorial/))
+
+![cloud4](i/cloud-4.png)
+
+(来源: [How to Create DeepFakes with Google Cloud GPU Services](https://www.deepfakes.club/google-cloud-fakeapp-tutorial/))
+
+
+最后是我在Google Cloud上进行Training的一个截图。
+
+![cloud5](i/cloud-5.png)
+
+### 项目架构
+
+最后让我们从高层理解一下整个DeepFake项目的架构。
+
+| Name |  | | Description |
+| --- | --- | --- |
+| .github |  | | |
+|         | ISSUE_TEMPLATE.md | | 如何提交BUG |
+| icons  |  | |GUI使用的图标 |
+| lib  |  | | 公用的库 |
+|   | PixelShuffler.py | | 像素洗牌 |
+|   | align_eyes.py |  | 按照眼睛水平对齐 |
+|   | detect_blur.py |  | 检测照片是否模糊 |
+|   | training_data.py |  | 管理训练数据 |
+| plugins  |  | | 人脸转换的模型|
+|   | Model_Original |  | 原始的模型 |
+|   | PluginLoader.py | | 加载不同的模型 |
+| scripts |  | | 启动的脚本 |
+| | extract.py | | 提取人脸 |
+| | train.py | | 训练人脸替换模型 |
+| | convert.py |  | 替换人脸 |
+| faceswap.py | | | 主程序 |
+| requirements-gpu-python35-cuda8.txt | | | Python3.5配合Cuda8所需要的基本配置要求 |
+| USAGE.md | | | 项目使用说明 |
 
 
 ## 社会影响
@@ -1127,6 +1196,8 @@ ffmpeg  -f image2 -i imagename%04d.jpg -vcodec libx264 -crf 15 -pix_fmt yuv420p 
 - Virtualenv：创建独立的Python环境
 - FFmpeg：多媒体音视频处理开源库
 
+现在就来上手，把你心爱的另一半的人脸搬上好莱坞吧。
+
 ## 参考资料
 
 - [深度解密换脸应用Deepfake](https://zhuanlan.zhihu.com/p/34042498)
@@ -1137,15 +1208,15 @@ ffmpeg  -f image2 -i imagename%04d.jpg -vcodec libx264 -crf 15 -pix_fmt yuv420p 
 - [DeepFakes解读](https://www.youtube.com/watch?v=7XchCsYtYMQ)
 - [Facial landmarks with dlib, OpenCV, and Python](https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/)
 
-## 诗
+## 后记
 
 ```
 
 真真假假谁人知，
-梦来梦走
+梦来梦走。
 
 你的面具，
-让我看不清容颜，
+让我看不清容颜。
 
 但又有谁
 能看清你的心

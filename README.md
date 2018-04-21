@@ -19,7 +19,6 @@
 - [20180405: 区块链不仅难用而且没用](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efdec)
 - [20180325: 实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
 
-
 ## 前沿科技入门
 
 - [两个月掌握计算机科学](System/CS.md)
