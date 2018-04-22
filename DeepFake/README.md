@@ -1218,7 +1218,7 @@ ffmpeg  -f image2 -i imagename%04d.jpg -vcodec libx264 -crf 15 -pix_fmt yuv420p 
 你的面具，
 让我看不清容颜。
 
-但又有谁
-能看清你的心
+但又有谁，
+能看清你的心。
 
 ```

@@ -15,8 +15,11 @@
 
 每天十分钟，驾驭科技最前沿
 
+- [20180423: 如何用AI寻找新的药物](https://www.youtube.com/watch?v=hY9Bc3mtphs)
+- [20180422: 用Deep Q-Learning玩Doom](https://medium.freecodecamp.org/an-introduction-to-deep-q-learning-lets-play-doom-54d02d8017d8)
 - [20180421: 红白游戏机人工智能挑战赛等着你来](https://contest.openai.com/)
 - [20180420: Apple开源FoundationDB](https://github.com/apple/foundationdb)
+- [20180419: 拥有人性的游戏设计](https://www.youtube.com/watch?v=0IUaGQhlPwo)
 - [20180413: 基于EOS的Airdrop即将开始，你准备好收钱了吗](https://eosdac.io/)
 - [20180405: 区块链不仅难用而且没用](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efdec)
 - [20180325: 实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
