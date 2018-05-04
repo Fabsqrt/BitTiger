@@ -1,4 +1,4 @@
-# 太阁实验室
+# 沁原的硅谷创新课
 
 - 作者：冯沁原
 - 网站：[www.bittiger.io](http://www.bittiger.io)
@@ -7,7 +7,7 @@
 
 ## 前沿科技解读
 
-- [如何实现基于太坊上的旁氏骗局POWH](SystemDesign/POWH/README.md)
+- [如何实现基于以太坊的旁氏骗局POWH](SystemDesign/POWH/README.md)
 - [如何实现通关马里奥的人工智能](SystemDesign/GYM/README.md)
 - [如何实现人工智能换脸DeepFake](SystemDesign/DeepFake/README.md)
 - [如何实现Blockchain、Bitcoin、Ethereum](SystemDesign/Ethereum/README.md)
