@@ -5,9 +5,9 @@
 - 邮箱：qinyuan@bittiger.io
 - 微信：zhaxisangbo
 
-## 前沿科技解读
+## 硅谷创新 & 深度解读
 
-- [如何实现基于以太坊的旁氏骗局POWH](SystemDesign/POWH/README.md)
+- [如何实现基于以太坊的旁氏骗局PoWH](SystemDesign/POWH/README.md)
 - [如何实现通关马里奥的人工智能](SystemDesign/GYM/README.md)
 - [如何实现人工智能换脸DeepFake](SystemDesign/DeepFake/README.md)
 - [如何实现Blockchain、Bitcoin、Ethereum](SystemDesign/Ethereum/README.md)
@@ -18,6 +18,8 @@
 
 每天十分钟，驾驭科技最前沿
 
+- 20180504
+  - [AI学习Google的小恐龙游戏](https://www.youtube.com/watch?v=sB_IGstiWlc)
 - 20180503
   - [PoWH3D是以太坊上的庞氏骗局吗](https://github.com/pytorch/elf)
 - 20180502
@@ -34,7 +36,9 @@
   - [红白游戏机人工智能挑战赛等着你来](https://contest.openai.com/)
 - 20180420
   - [Apple开源FoundationDB](https://github.com/apple/foundationdb)
-- 20180419
+- 20180418
+  - [Python之禅](https://www.youtube.com/watch?v=WJe3qVSOUqE)
+- 20180417
   - [如何设计一个拥有不完美人性的游戏](https://www.youtube.com/watch?v=0IUaGQhlPwo)
 - 20180413
   - [基于EOS的Airdrop即将开始，你准备好收钱了吗](https://eosdac.io/)
@@ -42,6 +46,8 @@
   - [区块链不仅难用而且没用](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efdec)
 - 20180325
   - [实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
+- 20180227
+  - [IGN满分游戏Celeste的设计哲学](https://www.youtube.com/watch?v=4RlpMhBKNr0)
 
 ## 前沿科技入门
 
@@ -51,4 +57,4 @@
 
 ## Bonus
 
-- [程序员的100个自我挑战，你实现了几个](Bonus/Challenge.md)
+- [程序员的100个自我挑战，你知道几个？](Bonus/Challenge.md)
