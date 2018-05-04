@@ -16,8 +16,10 @@
 
 每天十分钟，驾驭科技最前沿
 
-- [201800503: PoWH3D是庞氏骗局吗](https://github.com/pytorch/elf)
-- [201800502: Facebook开源了AI下围棋的代码](https://github.com/pytorch/elf)
+- 20180503
+  - [PoWH3D是庞氏骗局吗](https://github.com/pytorch/elf)
+- 20180502
+  - [Facebook开源了AI下围棋的代码](https://github.com/pytorch/elf)
 - [20180426: 别扯没用的](https://www.youtube.com/watch?v=4LTtr45y7P0)
   - Fun：是否值得买，是否做出来
 - [20180425: 万智牌二十年的二十个得到](https://www.youtube.com/watch?v=QHHg99hwQGY)
@@ -31,7 +33,7 @@
 - [20180419: 关于不完美的人性的游戏，讨论如何一步一步设计出来的](https://www.youtube.com/watch?v=0IUaGQhlPwo)
 - [20180413: 基于EOS的Airdrop即将开始，你准备好收钱了吗](https://eosdac.io/)
 - [20180405: 区块链不仅难用而且没用](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efdec)
-- [20180325: 实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
+- 20180325  [实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
 
 ## 前沿科技入门
 
