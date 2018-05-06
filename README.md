@@ -5,7 +5,7 @@
 - 邮箱：qinyuan@bittiger.io
 - 微信：zhaxisangbo
 
-## 硅谷创新 & 深度解读
+## 硅谷创新解读
 
 - [如何实现基于以太坊的旁氏骗局PoWH](SystemDesign/POWH/README.md)
 - [如何实现通关马里奥的人工智能](SystemDesign/GYM/README.md)
@@ -14,16 +14,16 @@
 - [如何实现基于以太坊的CryptoKitties谜恋猫](SystemDesign/CryptoKitties/README.md)
 - [如何实现人工智能贪吃蛇](SystemDesign/AISnake/README.md)
 
-## 前沿科技日报
-
-每天十分钟，驾驭科技最前沿
+## 每日创新头条
 
 - 20180504
-  - [AI学习Google的小恐龙游戏](https://www.youtube.com/watch?v=sB_IGstiWlc)
+  - [用AI写Marketing文章](https://www.youtube.com/watch?v=FYMjXD3G__Y)
 - 20180503
   - [PoWH3D是以太坊上的庞氏骗局吗](https://github.com/pytorch/elf)
 - 20180502
   - [Facebook开源了AI下围棋的代码](https://github.com/pytorch/elf)
+- 20180429
+  - [AI学习Google的小恐龙游戏](https://www.youtube.com/watch?v=sB_IGstiWlc)
 - 20180426
   - [Pitch idea的30个陷阱](https://www.youtube.com/watch?v=4LTtr45y7P0)
 - 20180425
@@ -44,6 +44,8 @@
   - [基于EOS的Airdrop即将开始，你准备好收钱了吗](https://eosdac.io/)
 - 20180405
   - [区块链不仅难用而且没用](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efdec)
+- 20180404
+  - [用任天堂的Labo组个乐队](https://www.youtube.com/watch?v=Fueos7OJeuo)
 - 20180325
   - [实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
 - 20180227
