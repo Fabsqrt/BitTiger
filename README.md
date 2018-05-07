@@ -5,6 +5,14 @@
 - 邮箱：qinyuan@bittiger.io
 - 微信：zhaxisangbo
 
+## 引言
+
+这门课能给你带来什么？驾驭科技，创造财富。
+
+如何学习呢？
+- 每天10分钟，跟进一篇每日创新头条
+- 每周半小时，学习一篇硅谷创新解读
+
 ## 硅谷创新解读
 
 - [如何实现基于以太坊的旁氏骗局PoWH](SystemDesign/POWH/README.md)
@@ -42,6 +50,8 @@
   - [如何设计一个拥有不完美人性的游戏](https://www.youtube.com/watch?v=0IUaGQhlPwo)
 - 20180413
   - [基于EOS的Airdrop即将开始，你准备好收钱了吗](https://eosdac.io/)
+- 20180409
+  - [在梦中学习的人工智能](https://worldmodels.github.io/)
 - 20180405
   - [区块链不仅难用而且没用](https://medium.com/@kaistinchcombe/decentralized-and-trustless-crypto-paradise-is-actually-a-medieval-hellhole-c1ca122efdec)
 - 20180404
@@ -50,6 +60,10 @@
   - [实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
 - 20180227
   - [IGN满分游戏Celeste的设计哲学](https://www.youtube.com/watch?v=4RlpMhBKNr0)
+- 20170921
+  - [用JS实现超级马里奥](https://www.youtube.com/watch?v=g-FpDQ8Eqw8&list=PLS8HfBXv9ZWWe8zXrViYbIM2Hhylx8DZx&index=0)
+- 20170510
+  - [基于区块链的P2P交易所AIRSWAP](https://www.airswap.io/technology)
 
 ## 前沿科技入门
 
