@@ -9,7 +9,6 @@
 
 [![](i/youtube.jpg)](http://www.youtube.com/watch?v=gdEx5nxkiRk "沁原教学：用区块链做一个火爆全球的以太猫（CryptoKitties）")
 
-
 ## 简介
 
 从区块链社区起步，全世界对CryptoKitties展现出了浓厚的兴趣。据第三方网站CryptoKitties Sales数据显示，截至2018年3月7日已经售出24万多只小猫，交易额超2280万美元，成交均价大约在71美元，小猫的最高售价为253ETH，目前折合美元是19万。具体统计如下：

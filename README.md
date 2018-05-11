@@ -15,7 +15,8 @@
 
 ## 硅谷创新解读
 
-- [如何实现基于以太坊的旁氏骗局PoWH](SystemDesign/POWH/README.md)
+- [如何实现基于以太坊的交易所Bancor](SystemDesign/Bancor/README.md)
+- [如何实现基于以太坊的银行PoWH](SystemDesign/POWH/README.md)
 - [如何实现通关马里奥的人工智能](SystemDesign/GYM/README.md)
 - [如何实现人工智能换脸DeepFake](SystemDesign/DeepFake/README.md)
 - [如何实现Blockchain、Bitcoin、Ethereum](SystemDesign/Ethereum/README.md)
@@ -25,7 +26,7 @@
 ## 每日创新头条
 
 - 20180504
-  - [用AI写Marketing文章](https://www.youtube.com/watch?v=FYMjXD3G__Y)
+  - [用AI在Marketing的应用](https://www.youtube.com/watch?v=FYMjXD3G__Y)
 - 20180503
   - [PoWH3D是以太坊上的庞氏骗局吗](https://github.com/pytorch/elf)
 - 20180502
@@ -60,6 +61,8 @@
   - [实时物品检测算法YOLO更新至V3](https://pjreddie.com/darknet/yolo/)
 - 20180227
   - [IGN满分游戏Celeste的设计哲学](https://www.youtube.com/watch?v=4RlpMhBKNr0)
+- 20180113
+  - [实现一个微服务](https://koukia.ca/a-microservices-implementation-journey-part-1-9f6471fe917)
 - 20170921
   - [用JS实现超级马里奥](https://www.youtube.com/watch?v=g-FpDQ8Eqw8&list=PLS8HfBXv9ZWWe8zXrViYbIM2Hhylx8DZx&index=0)
 - 20170510
