@@ -6,4 +6,4 @@
 
 ## 计算机组成
 
-- [Java中int的最大值是多少](JavaInt.md)
+- [Java中int的最大值是多少](JavaInt/README.md)
