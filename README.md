@@ -11,7 +11,6 @@
 - [两个月掌握计算机科学](Introduction/CS.md)
 - [三个月掌握人工智能](Introduction/AI.md)
 
-
 ## 每日创新头条
 
 - 20180504
