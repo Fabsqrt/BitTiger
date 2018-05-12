@@ -1,4 +1,4 @@
-# 两个月掌握计算机科学
+# 计算机科学规划
 
 - 作者：冯沁原
 - 网站：[www.bittiger.io](http://www.bittiger.io)

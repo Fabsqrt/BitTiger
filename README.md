@@ -5,20 +5,25 @@
 - 邮箱：qinyuan@bittiger.io
 - 微信：zhaxisangbo
 
-## 前沿科技入门
+## 打基础
 
-- [100个精品项目带你学懂区块链](https://github.com/Fabsqrt/Blockchain)
-- [两个月掌握计算机科学](Introduction/CS.md)
-- [三个月掌握人工智能](Introduction/AI.md)
+- [100道面试题带你掌握计算机科学](ComputerScience/README.md)
+- [100道面试题带你掌握算法设计](AlgorithmDesign/README.md)
+- [100道面试题带你掌握系统设计](SystemDesign/README.md)
 
-## 硅谷创新课
+- [100个精品项目带你掌握区块链](https://github.com/Fabsqrt/Blockchain)
+- [100个精品项目带你掌握人工智能](ArtificialIntelligent/README.md)
+
+## 创新课
 
 - [001 最火的区块链应用是什么](https://www.youtube.com/watch?v=tKPeYjldW_A)
 
-## 头条资讯
+## 新资讯
 
 - 20180511
   - [Ray Dalio的新时代成功学：原则系列动画](https://www.principles.com/principles-for-success/)
+- 20180510
+  - [2049年，你被人形机器人追杀，又被四脚机器狗搜捕的日子](https://www.youtube.com/watch?v=vjSohj-Iclc)
 - 20180504
   - [用AI在Marketing的应用](https://www.youtube.com/watch?v=FYMjXD3G__Y)
 - 20180503
@@ -62,9 +67,7 @@
 - 20170510
   - [基于区块链的P2P交易所AIRSWAP](https://www.airswap.io/technology)
 
+
 ## Bonus
 
-- [如何实现通关马里奥的人工智能](SystemDesign/GYM/README.md)
-- [如何实现人工智能换脸DeepFake](SystemDesign/DeepFake/README.md)
-- [如何实现人工智能贪吃蛇](SystemDesign/AISnake/README.md)
 - [程序员的100个自我挑战，你知道几个？](Bonus/Challenge.md)
