@@ -5,23 +5,12 @@
 - 邮箱：qinyuan@bittiger.io
 - 微信：zhaxisangbo
 
-## 引言
+## 前沿科技入门
 
-这门课能给你带来什么？驾驭科技，创造财富。
+- [100个精品项目带你学懂区块链](https://github.com/Fabsqrt/Blockchain)
+- [两个月掌握计算机科学](Introduction/CS.md)
+- [三个月掌握人工智能](Introduction/AI.md)
 
-如何学习呢？
-- 每天10分钟，跟进一篇每日创新头条
-- 每周半小时，学习一篇硅谷创新解读
-
-## 硅谷创新解读
-
-- [如何实现基于以太坊的交易所Bancor](SystemDesign/Bancor/README.md)
-- [如何实现基于以太坊的银行PoWH](SystemDesign/POWH/README.md)
-- [如何实现通关马里奥的人工智能](SystemDesign/GYM/README.md)
-- [如何实现人工智能换脸DeepFake](SystemDesign/DeepFake/README.md)
-- [如何实现Blockchain、Bitcoin、Ethereum](SystemDesign/Ethereum/README.md)
-- [如何实现基于以太坊的CryptoKitties谜恋猫](SystemDesign/CryptoKitties/README.md)
-- [如何实现人工智能贪吃蛇](SystemDesign/AISnake/README.md)
 
 ## 每日创新头条
 
@@ -68,11 +57,11 @@
 - 20170510
   - [基于区块链的P2P交易所AIRSWAP](https://www.airswap.io/technology)
 
-## 前沿科技入门
+## 硅谷创新解读
 
-- [两个月掌握计算机科学](Introduction/CS.md)
-- [三个月掌握人工智能](Introduction/AI.md)
-- [三个月掌握区块链](Introduction/Blockchain.md)
+- [如何实现通关马里奥的人工智能](SystemDesign/GYM/README.md)
+- [如何实现人工智能换脸DeepFake](SystemDesign/DeepFake/README.md)
+- [如何实现人工智能贪吃蛇](SystemDesign/AISnake/README.md)
 
 ## Bonus
 
