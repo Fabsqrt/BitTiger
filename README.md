@@ -5,19 +5,22 @@
 - 邮箱：qinyuan@bittiger.io
 - 微信：zhaxisangbo
 
+## 学前沿
+
+- [100个精品项目带你掌握区块链](Blockchain/README.md)
+- [100个精品项目带你掌握人工智能](ArtificialIntelligent/README.md)
+
 ## 打基础
 
 - [100道面试题带你掌握计算机科学](ComputerScience/README.md)
 - [100道面试题带你掌握算法设计](AlgorithmDesign/README.md)
 - [100道面试题带你掌握系统设计](SystemDesign/README.md)
 
-- [100个精品项目带你掌握区块链](https://github.com/Fabsqrt/Blockchain)
-- [100个精品项目带你掌握人工智能](ArtificialIntelligent/README.md)
 
 ## 创新课
 
-- [002 如何训练人工智能游戏高手](https://www.youtube.com/watch?v=cZa_xot8Wdc)
-- [001 最火的区块链应用是什么](https://www.youtube.com/watch?v=tKPeYjldW_A)
+- [002 如何训练人工智能游戏高手？OpenAI、Gym Retro、DQN、PPO、TensorFlow](https://www.youtube.com/watch?v=cZa_xot8Wdc)
+- [001 最火的区块链应用是什么？Bancor、PoWH3D、CryptoKitties](https://www.youtube.com/watch?v=tKPeYjldW_A)
 
 ## 新资讯
 
@@ -67,8 +70,3 @@
   - [用JS实现超级马里奥](https://www.youtube.com/watch?v=g-FpDQ8Eqw8&list=PLS8HfBXv9ZWWe8zXrViYbIM2Hhylx8DZx&index=0)
 - 20170510
   - [基于区块链的P2P交易所AIRSWAP](https://www.airswap.io/technology)
-
-
-## Bonus
-
-- [程序员的100个自我挑战，你知道几个？](Bonus/Challenge.md)
