@@ -16,6 +16,7 @@
 
 ## 创新课
 
+- [002 如何训练人工智能游戏高手](https://www.youtube.com/watch?v=cZa_xot8Wdc)
 - [001 最火的区块链应用是什么](https://www.youtube.com/watch?v=tKPeYjldW_A)
 
 ## 新资讯

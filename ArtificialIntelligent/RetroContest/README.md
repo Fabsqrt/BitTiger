@@ -1,5 +1,11 @@
 # 如何实现挑战索尼克的人工智能
 
+## 观看视频讲解
+
+[![](http://img.youtube.com/vi/cZa_xot8Wdc/0.jpg)](http://www.youtube.com/watch?v=cZa_xot8Wdc "")
+
+## 缘起
+
 ![game](i/game.png)
 
 (来源: [OpenAI Retro Contest](https://contest.openai.com/))
@@ -145,3 +151,8 @@ def main():
 ### 总结
 
 到此为止，我们已经跟上了作者的脚步，比赛还在进行，你也来尝试一下呀。
+
+## 参考资料
+
+- [OpenAI Retro Contest](https://contest.openai.com/)
+- [Day one of the OpenAI Retro Contest.](https://medium.com/@tristansokol/day-one-of-the-openai-retro-contest-1651ddcd6aa5)
