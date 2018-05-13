@@ -1,4 +1,4 @@
-# 如何实现基于以太坊的银行PoWH
+# 如何实现基于以太坊的银行PoWH3D
 
 Disclaimer: None of this is financial advice
 
@@ -8,7 +8,7 @@ Disclaimer: None of this is financial advice
 - 邮箱：Qinyuan@BitTiger.io
 - 微信：zhaxisangbo
 
-## POWH长什么样
+## POWH3D长什么样
 
 ![web1](i/web1.png)（来源: [PoWH3D - exchange](https://exchange.powh.io/holdings)）
 
