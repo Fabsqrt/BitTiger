@@ -6,8 +6,8 @@
 
 ## 计算机组成
 
-- [Java中int的最大值是多少](JavaInt/README.md)
+- [Java中int的最大值是多少](Problems/JavaInt/README.md)
 
 ## 计算机网络
 
-- [如何实现microservices](Microservices/README.md)
+- [如何实现microservices](Problems/Microservices/README.md)
