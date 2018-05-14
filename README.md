@@ -7,7 +7,7 @@
 
 ## 什么是创新
 
-所谓创新，就是一个产生结构性变化的机会。变化意味着机遇，而结构性变化意味着自底向上的更大机遇。当今，区块链和人工智能都是能够产生结构性变化的机遇。区块链会改变利益分配的方式，提升利益分配的效率，甚至让非生物进入到利益的交换体系之中。人工智能会降低人类的存在感，那些只有人类能做的事情越来越少，我们会越来越在机器的指导下生存。
+所谓创新，就是一个产生结构性变化的机遇。变化意味着机遇，而结构性变化意味着自底向上的更大机遇。当今，区块链和人工智能都是能够产生结构性变化的机遇。区块链会改变利益分配的方式，提升利益分配的效率，甚至让非生物进入到利益的交换体系之中。人工智能会降低人类的存在感，那些只有人类能做的事情越来越少，我们会越来越在机器的指导下生存。
 
 ## 学前沿
 
@@ -22,6 +22,8 @@
 
 ## 创新课
 
+
+- [003 人工智能如何通关马里奥世界 Machine Learning、Neural Network、Evolutionary Algorithm、NEAT、Mario](https://www.youtube.com/watch?v=Zuff7plaTCo)
 - [002 如何训练人工智能游戏高手？OpenAI、Gym Retro、DQN、PPO、TensorFlow](https://www.youtube.com/watch?v=cZa_xot8Wdc)
 - [001 最火的区块链应用是什么？Bancor、PoWH3D、CryptoKitties](https://www.youtube.com/watch?v=tKPeYjldW_A)
 

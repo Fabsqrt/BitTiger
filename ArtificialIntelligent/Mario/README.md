@@ -1,5 +1,12 @@
 # 如何让人工智能通关马里奥
 
+## 观看视频
+
+上篇：
+[![](http://img.youtube.com/vi/Zuff7plaTCo/0.jpg)](http://www.youtube.com/watch?v=Zuff7plaTCo "")
+
+
+
 ## 马里奥世界
 
 想深入了解如何通关马里奥，不得不提起SethBling。他在2015年6月设计了人工智能算法Marl/O。
