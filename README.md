@@ -36,6 +36,20 @@
 - [002 如何训练人工智能游戏高手？OpenAI、Gym Retro、DQN、PPO、TensorFlow](https://www.youtube.com/watch?v=cZa_xot8Wdc)
 - [001 最火的区块链应用是什么？Bancor、PoWH3D、CryptoKitties](https://www.youtube.com/watch?v=tKPeYjldW_A)
 
+## 沁原每日面经解读
+
+- [011 嵌套求和 LinkedIn-全职-电面-社招](Interview/011.md)
+- [010 数字解码 Facebook-全职-Onsite-社招](Interview/010.md)
+- [009 输出排列 LinkedIn-全职-电面-社招](Interview/009.md)
+- [008 字典组合 Pinterest-全职-电面-社招](Interview/008.md)
+- [007 大数求和 Zillow-全职-电面-社招](Interview/007.md)
+- [006 对称点 Apple-全职-电面-社招](Interview/006.md)
+- [005 翻倍数 AQR-全职-在线笔试-应届](Interview/005.md)
+- [004 寻找重复数 Amazon-全职-电面-社招](Interview/004.md)
+- [003 更新树节点 Tableau-全职-电面-社招](Interview/003.md)
+- [002 比特翻转 Amazon-全职-技术电面-社招](Interview/002.md)
+- [001 偷蛋糕 AQR-全职-在线笔试-应届](Interview/001.md)
+
 ## 新机遇
 
 - 结构性机遇：噬菌体能否代替抗生素来拯救生命？
