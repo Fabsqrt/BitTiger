@@ -28,6 +28,10 @@
 
 ## 创新课
 
+- [005 区块链上的“庞氏骗局”是如何赚钱的 PoWH3D、Blockchain、Ethereum、Solidity、Cybersecurity
+](https://www.youtube.com/watch?v=WJpEYxgUw1M)
+- [004 人工智能如何夺取马里奥赛车金牌 Self-driving、Deep Learning、RNN、LSTM、TensorFlow
+](https://www.youtube.com/watch?v=ECXNqtdHdow)
 - [003 人工智能如何通关马里奥世界 Machine Learning、Neural Network、Evolutionary Algorithm、NEAT、Mario](https://www.youtube.com/watch?v=Zuff7plaTCo)
 - [002 如何训练人工智能游戏高手？OpenAI、Gym Retro、DQN、PPO、TensorFlow](https://www.youtube.com/watch?v=cZa_xot8Wdc)
 - [001 最火的区块链应用是什么？Bancor、PoWH3D、CryptoKitties](https://www.youtube.com/watch?v=tKPeYjldW_A)
