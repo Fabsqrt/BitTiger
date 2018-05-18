@@ -38,6 +38,7 @@ Disclaimer: None of this is financial advice
 - [实战智能合约：公开拍卖](Classes/Auction.md)
 - [实战智能合约：密封拍卖](Classes/BlindAuction.md)
 - [实战智能合约：买卖物品](Classes/Purchase.md)
+- [实战智能合约：EtherShrimpFarm](Classes/EtherShrimpFarm/README.md)
 
 ## 精英篇
 
