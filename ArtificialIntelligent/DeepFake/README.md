@@ -5,11 +5,10 @@
 - 原文：[github.com/Fabsqrt/BitTigerLab](https://github.com/Fabsqrt/BitTigerLab)
 - 邮箱：Qinyuan@BitTiger.io
 
-## 报名直播
+## 观看视频
 
-报名地址：
+[![](http://img.youtube.com/vi/y7XneJitOzw/0.jpg)](http://www.youtube.com/watch?v=y7XneJitOzw "")
 
-[https://www.bittiger.io/events/6BMNCF2wyY3kX2aNN](https://www.bittiger.io/events/6BMNCF2wyY3kX2aNN)
 
 ## 简介
 
