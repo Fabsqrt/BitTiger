@@ -14,7 +14,7 @@
 
 - [如何让人工智能制作神曲](Music/README.md)
 - [如何实现人工智能换脸DeepFake](DeepFake/README.md)
-- [如何实现Yolo](Yolo/README.md)
+- [如何实现Yolo](YOLO/README.md)
 - [如何用人工智能生成高质量的图片](HighQualityImage/README.md)
 
 

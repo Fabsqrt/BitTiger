@@ -7,9 +7,9 @@
 
 ## 这门课能给你带来什么？
 
-1. 带你发现创新的机遇
-1. 让你具备创新的能力
-1. 助你实现生命的意义
+- 挖掘结构性变化
+- 探寻背后的原理
+- 把握未来的机遇
 
 ## 什么是创新
 
@@ -17,14 +17,16 @@
 
 ## 学前沿
 
-- [100个精品项目带你掌握区块链](Blockchain/README.md)
-- [100个精品项目带你掌握人工智能](ArtificialIntelligent/README.md)
+- [区块链从入门到精通](Blockchain/README.md)
+- [人工智能从入门到精通](ArtificialIntelligent/README.md)
 
 ## 打基础
 
-- [100道面试题带你掌握计算机科学](ComputerScience/README.md)
-- [100道面试题带你掌握算法设计](AlgorithmDesign/README.md)
-- [100道面试题带你掌握系统设计](SystemDesign/README.md)
+- [计算机科学从入门到精通](ComputerScience/README.md)
+- [算法设计从入门到精通](AlgorithmDesign/README.md)
+- [系统设计从入门到精通](SystemDesign/README.md)
+- [数据科学从入门到精通](DataScientist/README.md)
+
 
 ## 创新课
 
