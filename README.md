@@ -84,6 +84,7 @@
   - [基于区块链的P2P交易所AIRSWAP](https://www.airswap.io/technology)
 
 有趣的
+  - [学习PyTorch](https://pytorch.org/tutorials/index.html)
   - [Apple开源FoundationDB](https://github.com/apple/foundationdb)
   - [Python之禅](https://www.youtube.com/watch?v=WJe3qVSOUqE)
   - [如何设计一个拥有不完美人性的游戏](https://www.youtube.com/watch?v=0IUaGQhlPwo)
