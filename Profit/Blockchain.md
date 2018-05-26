@@ -2,58 +2,30 @@
 
 区块链风风火火，但是大家是怎么赚钱的呢？
 
-## 区块链的平台是如何赚钱的
 
-### Ethereum平台
 
-The Ethereum presale took place from Tuesday, 22 July 2014 to Tuesday, 2 September 2014.
-
-22 July to 5 August 2014:     2000 ETH      = 1 BTC = 572-632 USD
-
-6 August to 2 September 2014: 1999-1337 ETH = 1 BTC = 592-471 USD
-
-$ 0.311 on 2014 and now its current price is $ 871.800.
-
-https://de.slideshare.net/mids106/ethereum-presale
-
-https://medium.com/hasufl/ethereum-presale-dynamics-revisited-c1b70ac38448
-
-31529.36369551 BTC => 60102216 ETH
-
-### EOS平台是如何赚钱的？
-
-https://eos.io/
-
-https://icodrops.com/eos/
-
-https://eosscan.io/
-
-6,831,914 ETH
-
-### 矿工是如何赚钱的？
-
-### 买卖虚拟币是如何赚钱的？
-
-## 区块链的开发者和用户是如何赚钱的
-
-### 投资模式是如何赚钱的？PoWH3D
-
-源码逻辑解读
-
-## 博彩模式是如何赚钱的？Etheroll
-
-逻辑解读
-
-### 游戏模式是如何赚钱的？CryptoKitties & Shrimp Farm
-
-源码逻辑解读
-
-### 交易所模式是如何赚钱的？Bancor
-
-### 内容模式是如何赚钱的？STEEM
-
-## 区块链的骗局有哪些？
-
-### ICO骗局有哪些？
-### 庞氏骗局有哪些？
-### 黑客骗局有哪些？
+- [ETH预售](https://de.slideshare.net/mids106/ethereum-presale)
+- [ETH预售分析](https://medium.com/hasufl/ethereum-presale-dynamics-revisited-c1b70ac38448)
+- [EOS](https://eos.io/)
+- [EOS分析1](https://icodrops.com/eos/)
+- [EOS分析2](https://eosscan.io/)
+- [比特币挖矿投资可行性分析](https://xiaofeng.io/?p=41)
+- [BTC分析](https://btc.com/)
+- [云挖矿](https://www.genesis-mining.hk/)
+- [AirSwap: No Fee Token Trading](https://www.airswap.io/trade)
+- [了解AirSwap的原理](https://www.youtube.com/watch?v=JZjHtoe062I)
+- [The Tech That Launched the AirSwap Token
+](https://blog.airswap.io/the-tech-that-launched-the-airswap-token-5361328185b7)
+- [AirSwap Youtube Channel](https://www.youtube.com/channel/UCb2tLdHXs72fdtKXGD1uPAg)
+- [Aurora](https://auroradao.com/)
+- [Bancor](https://www.bancor.network)
+- [FART Hack](https://www.youtube.com/watch?v=OucIq8-VwrQ)
+- [CryptoKitties代码](https://github.com/axiomzen/cryptokitties-bounty)
+- [CryptoKitties官方网站](https://www.cryptokitties.co/)
+- [Kitty Sales统计平台](https://kittysales.herokuapp.com/)
+- [CryptoKitties白皮书](https://www.dropbox.com/s/a5h3zso545wuqkm/CryptoKitties_WhitePapurr_V2.pdf?dl=0)
+- [CryptoKitties基因图谱](https://cryptokittydex.com/)
+- [CoinCheckup分析](https://coincheckup.com/coins/etheroll)
+- [Etheroll](https://etheroll.com/#/about)
+- [http://ethershrimpfarm.net/](http://ethershrimpfarm.net/)
+- [POWH3D](https://powh.io/)
