@@ -1,9 +1,7 @@
 # 沁原的硅谷创新课
 
 - 作者：冯沁原
-- 网站：[www.bittiger.io](http://www.bittiger.io)
-- 邮箱：qinyuan@bittiger.io
-- 微信：zhaxisangbo
+- 邮箱：qinyuan.feng@gmail.com
 
 ## 这门课能给你带来什么？
 
