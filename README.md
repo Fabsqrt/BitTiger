@@ -20,6 +20,7 @@
 - 北京时间：每周日09:30-10:12
 - [报名地址点这里](http://url.cn/5h2vY7d)
 
+往期视频
 
 - [第四期《大创业家：麦当劳之父雷·克洛克自传》](https://www.youtube.com/watch?v=LobpFqXvrTM)
 - [第三期《刷新：重新发现商业与未来》](https://www.youtube.com/watch?v=dmSKkczxVpU)
