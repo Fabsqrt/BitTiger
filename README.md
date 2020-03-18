@@ -15,6 +15,12 @@
 
 ## 君山书院：触动我的一本书
 
+[报名每周直播](http://url.cn/5h2vY7d)
+- 硅谷时间：每周六18:30-19:12
+- 北京时间：每周日09:30-10:12
+- [报名地址点这里](http://url.cn/5h2vY7d)
+
+
 - [第四期《大创业家：麦当劳之父雷·克洛克自传》](https://www.youtube.com/watch?v=LobpFqXvrTM)
 - [第三期《刷新：重新发现商业与未来》](https://www.youtube.com/watch?v=dmSKkczxVpU)
 - [第二期《穷查理宝典：查理•芒格的智慧箴言录》](https://www.youtube.com/watch?v=PdlLMI5zz0c)
