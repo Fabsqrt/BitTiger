@@ -15,6 +15,9 @@
 
 ## 君山书院：触动我的一本书
 
+- [第四期《大创业家：麦当劳之父雷·克洛克自传》](https://www.youtube.com/watch?v=LobpFqXvrTM)
+- [第三期《刷新：重新发现商业与未来》](https://www.youtube.com/watch?v=dmSKkczxVpU)
+- [第二期《穷查理宝典：查理•芒格的智慧箴言录》](https://www.youtube.com/watch?v=PdlLMI5zz0c)
 - [第一期《思考，快与慢》](https://www.youtube.com/watch?v=1Zf8k-w4Rp0)
 
 ## 学前沿
