@@ -16,8 +16,8 @@
 ## 君山书院：触动我的一本书
 
 [报名每周直播](http://url.cn/5h2vY7d)
-- 硅谷时间：每周六18:30-19:12
-- 北京时间：每周日09:30-10:12
+- 硅谷时间：每周六，18:30-19:12
+- 北京时间：每周日，09:30-10:12
 - [报名地址点这里](http://url.cn/5h2vY7d)
 
 往期视频
@@ -51,7 +51,7 @@
 - [002 如何训练人工智能游戏高手？OpenAI、Gym Retro、DQN、PPO、TensorFlow](https://www.youtube.com/watch?v=cZa_xot8Wdc)
 - [001 最火的区块链应用是什么？Bancor、PoWH3D、CryptoKitties](https://www.youtube.com/watch?v=tKPeYjldW_A)
 
-## 沁原每日面经解读
+## 沁原的面经解读
 
 - [011 嵌套求和 LinkedIn-全职-电面-社招](Interview/011.md)
 - [010 数字解码 Facebook-全职-Onsite-社招](Interview/010.md)
