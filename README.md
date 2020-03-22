@@ -15,10 +15,10 @@
 
 ## 君山书院：触动我的一本书
 
-[报名每周直播](http://url.cn/5h2vY7d)
+每周直播
 - 硅谷时间：每周六，18:30-19:12
 - 北京时间：每周日，09:30-10:12
-- [报名地址点这里](http://url.cn/5h2vY7d)
+- 报名地址：[http://url.cn/5h2vY7d](http://url.cn/5h2vY7d)
 
 往期视频
 - [第五期《思维的版图：探究东西方思维的差异》](https://www.youtube.com/watch?v=D9GjXOKFe3c)
