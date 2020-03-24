@@ -1,7 +1,7 @@
-# 沁原的硅谷创新课
+# V-School
 
 - 作者：冯沁原
-- 邮箱：qinyuan.feng@gmail.com
+- 邮箱：luke@junshan.org
 
 ## 这门课能给你带来什么？
 
