@@ -62,7 +62,7 @@ V-School当前的课程有，
 
 ### 创新课
 
-- [006 沁原的硅谷创新课 006 区块链最火的农场游戏是如何赚钱的 Ether Shrimp Farm、Ethereum、Solidity、Remix、DAPP](https://www.youtube.com/watch?v=CsLYK7mz2P0)
+- [006 区块链最火的农场游戏是如何赚钱的 Ether Shrimp Farm、Ethereum、Solidity、Remix、DAPP](https://www.youtube.com/watch?v=CsLYK7mz2P0)
 - [005 区块链上的“庞氏骗局”是如何赚钱的 PoWH3D、Blockchain、Ethereum、Solidity、Cybersecurity
 ](https://www.youtube.com/watch?v=WJpEYxgUw1M)
 - [004 人工智能如何夺取马里奥赛车金牌 Self-driving、Deep Learning、RNN、LSTM、TensorFlow
