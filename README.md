@@ -7,7 +7,13 @@
 
 - 源自硅谷，是第一所终身学习者的开环社群。
 - 不断推出普惠课程服务终身学习者，当前的课程有，
-  - 通识课：君山书院，每周一期，高手带你解读触动你我的一本书
+  - 君山书院：每周读本书
+  - TigerLab：君山长青赞助的公益项目课
+  
+## TigerLab公益课程
+
+![Intro](https://github.com/Fabsqrt/Junshan/blob/master/Temp/Intro.png)
+
 
 ## 君山书院：触动我的一本书
 
