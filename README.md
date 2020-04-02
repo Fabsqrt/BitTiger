@@ -141,7 +141,7 @@
 
 作者：秋阳创巴，01.22.1973  By Chögyam Trungpa, January 22, 1973
 翻译：扎西桑波，07.24.2015	 
-修订：扎西桑波，04.21.2020
+修订：扎西桑波，04.01.2020
 
 节选自 《自由的迷思》      <<The Myth of Freedom and the Way of Meditation>>
 
