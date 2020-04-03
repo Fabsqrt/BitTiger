@@ -1,10 +1,6 @@
 # 如何实现CryptoKitties谜恋猫
 
-- 作者：冯沁原
-- 网站：[www.BitTiger.io](https://www.BitTiger.io)
 - 原文：[https://github.com/Fabsqrt/Blockchain](https://github.com/Fabsqrt/Blockchain)
-- 邮箱：Qinyuan@BitTiger.io
-- 微信：zhaxisangbo
 
 ## 观看课程视频
 
