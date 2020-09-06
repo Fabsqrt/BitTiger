@@ -21,7 +21,7 @@ progma solidity ^0.4.23;
 我们也可以把其它文件中的内容导入。
 
 ```solidity
-import * as symbolName from "filename";
+import "filename";
 ```
 
 上面的写法会把filename中的所有合约导入当下。
