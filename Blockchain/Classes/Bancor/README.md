@@ -185,7 +185,7 @@ contract Managed {
     }
 
     /**
-        @dev 接受成为洗呢管理员
+        @dev 接受成为新的管理员
     */
     function acceptManagement() public {
         require(msg.sender == newManager);
