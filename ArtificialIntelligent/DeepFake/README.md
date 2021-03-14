@@ -1156,9 +1156,9 @@ ffmpeg  -f image2 -i imagename%04d.jpg -vcodec libx264 -crf 15 -pix_fmt yuv420p 
 
 最后让我们从高层理解一下整个DeepFake项目的架构。
 
-| Name |  | | Description |
-| --- | --- | --- |
-| .github |  | | |
+| Name |  |  | Description |
+| --- | --- | --- | --- |
+| .github |  |  |  | 
 |         | ISSUE_TEMPLATE.md | | 如何提交BUG |
 | icons  |  | |GUI使用的图标 |
 | lib  |  | | 公用的库 |
